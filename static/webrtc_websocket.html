@@ -33,7 +33,7 @@ remote:
 <script>
 var client;
 function join(){
-    client = new RTCClient("ws://192.168.0.9:8080/"+$("#group_id").val(),{"iceServers":[{ "url": "stun:115.25.138.230" }]} , function (id) {
+    client = new RTCClient("ws://localhost:8080/"+$("#group_id").val(),{"iceServers":[{ "url": "stun:115.25.138.230" }]} , function (id) {
         document.getElementById("id").textContent = id;
     });
     client.ondatachannel = function (Channel) {
