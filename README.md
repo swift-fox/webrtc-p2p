@@ -10,11 +10,11 @@ Browser-based P2P live media streaming solution. Supports all mainstream mobile 
 - Based on peer-to-peer sharing network.
 
 **Applications**
-- Network live broadcasting
+- Internet live broadcasting
 - Online conference system
 - Remote education system
 
-**Current state:** Prototype. Tested on Chrome Canary.
+**Current state:** Prototype. Tested on Chrome.
 
 **How to Use**
 
@@ -22,4 +22,4 @@ server.js and webrtc-server.js is the server-side script. Run it with NodeJS.
 
 webrtc-p2p.js is the browser-side script. Create RTCClient object. And its usage is similar to the RTCPeerConnection in WebRTC.
 
-Demos and code example available upon request.
+Demo is available on the **demo** branch. Check it out!
